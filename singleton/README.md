@@ -1,3 +1,29 @@
+<h1>SINGLETON METHOD</h1>
+
+<span style="color: red">Creational</span>
+
+<h2>Intenção</h2>
+
+Criar um superclasse que consegue retornar instancias de subclasses.
+
+<h2>Motivação</h2>
+
+Aos poucos a sua implementação irá precisar de sub-classes diferentes.
+
+<h2>Vantagens</h2>
+
+* Can be sure that a class has only a single instance.
+* 
+
+Evita o forte acoplamento entre o criador 
+e os produtos concretos.
+
+<h2>Desvantagens</h2>
+
+A grande quantidade de ifs que você terá em seu código.
+E a grande quantidade de subclasses que você terá em seu código.
+
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
